@@ -1,28 +1,17 @@
-import pandas as pd
-# #builds my class of type dataframe
-# #df holds a dataframe object
-# #when i creat a new object and save it to a new variable 
-# # i say that i have instantiated that object
-# #object oriented programming OOP
-df  = pd.DataFrame({"a": [1,2,3],"b":[4,5,6]})
-# # variables that form part of an object are called attributes
-# #the variables held within the dataframe are a and b
-# # we can access the variables using dot notation
-# df. this
-# df. that
-# df. shape
-# df. dtype
-# df. index
-# df. columns
-if __name__=="__main__":
-    print(df.shape,
-          df.dtypes,
-          df.index,
-          df.columns) 
-# #functions taht form part of an object are called methods
-    print(df.head(),
-    df.describe(),
-    df.isnull(),
-    df.sum(),
-    df["a"].value_counts())
-# #the .notation with no parenthesis are calling values but the .notations with parenthesis are calling functions
+# import pytest
+# import random
+# class Product:
+#     def __init__(self, name, price=10, weight=20, flammability=0.5, identifier=random.randrange(1000000, 9999999)):
+#         self.name = name
+#         self.price = price
+#         self.weight = weight
+#         self.flammability = flammability
+#         self.identifier = identifier
+#     def stealability(self):
+#         ratio = self.price / self.weight
+#         if ratio < 0.5:
+#             return "Nor so stealable..."
+#         elif ratio < 1.0:
+#             return "Kinda stealable"
+#         else: 
+#             return "Very stealable!"
